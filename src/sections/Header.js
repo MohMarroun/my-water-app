@@ -5,13 +5,12 @@ const Header = () => {
         height: '40px',
     }
     return (
-        <header className='position-relative'>
+        <header id="header-section" className='position-relative'>
             <div className="container">
                 <nav className="d-flex justify-content-between align-items-center">
                     <div className="logo">
                         <div className="d-flex align-items-center gap-3">
                             <img src="./images/water-logo-4.svg" alt="" style={style}/>
-                            {/* <h3 className='fs-2 m-0'>SAVE WATER</h3> */}
                         </div>
                     </div>
                     <ul className='d-flex list-unstyled m-0'>
@@ -47,7 +46,7 @@ const Header = () => {
                                     <a 
                                         href="https://docs.google.com/forms/d/e/1FAIpQLSemzaCW0rz6Q7WcsyOVXrFYg3Tiayo2Aw1UA0SISe-6Ky3I2A/viewform" 
                                         className="btn btn-primary">
-                                        <i className="bi bi-ui-checks-grid me-2"></i>
+                                            <i className="bi bi-ui-checks-grid me-2"></i>
                                         Questionnaire
                                     </a>
                                     <a href="https://youtu.be/XOZRSWR3GLY?feature=shared" className="btn d-inline-flex">
@@ -58,7 +57,7 @@ const Header = () => {
                         </div>
                         <div className="col-xl-5">
                             <div className="right position-relative">
-                                <div className="container pe-0 text-end h-100">
+                                <div className="container pe-0 text-center h-100">
                                     <img className="h-100" src="./images/header-picture.png" alt="" />
                                 </div>
                             </div>

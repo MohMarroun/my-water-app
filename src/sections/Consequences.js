@@ -36,7 +36,7 @@ const Consequences = () => {
                         </div>
                     </div>
                     <div className="col-sm-6">
-                        <div className="container pe-0 text-start">
+                        <div className="container text-start">
                             <a href="#solutions-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
                             </a>
@@ -52,12 +52,12 @@ const Consequences = () => {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" id="flush-headingOne">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Assèchement des ressources naturelles
+                                                Assèchement des ressources naturelles
                                             </button>
                                         </h2>
                                         <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                             <div className="accordion-body">
-                                                📌 Explication : L’usage excessif de l’eau épuise les nappes phréatiques et les rivières. Dans certaines régions, cela entraîne une raréfaction de l’eau potable.
+                                                <b>Explication :</b> L’usage excessif de l’eau épuise les nappes phréatiques et les rivières. Dans certaines régions, cela entraîne une raréfaction de l’eau potable.
                                             </div>
                                         </div>
                                     </div>
@@ -69,8 +69,8 @@ const Consequences = () => {
                                         </h2>
                                         <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                             <div className="accordion-body">
-                                                📌 Explication : Dans de nombreuses régions du monde, des millions de personnes souffrent du manque d’eau en raison d’une mauvaise gestion des ressources et des sécheresses accrues. <br/>
-                                                🖼 Exemple concret : « En Afrique subsaharienne, des familles doivent marcher plusieurs kilomètres chaque jour pour trouver une source d’eau potable. »
+                                                <b>Explication :</b> Dans de nombreuses régions du monde, des millions de personnes souffrent du manque d’eau en raison d’une mauvaise gestion des ressources et des sécheresses accrues. <br/>
+                                                <b>Exemple concret :</b> « En Afrique subsaharienne, des familles doivent marcher plusieurs kilomètres chaque jour pour trouver une source d’eau potable. »
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ const Consequences = () => {
                                         </h2>
                                         <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                             <div className="accordion-body">
-                                                📌 Explication : La consommation excessive d’eau entraîne le dessèchement des rivières et la disparition de certains habitats naturels. Cela menace des espèces animales et végétales. <br/>
+                                                <b>Explication :</b> La consommation excessive d’eau entraîne le dessèchement des rivières et la disparition de certains habitats naturels. Cela menace des espèces animales et végétales. <br/>
                                             </div>
                                         </div>
                                     </div>
@@ -94,8 +94,8 @@ const Consequences = () => {
                                         </h2>
                                         <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                             <div className="accordion-body">
-                                            📌 Explication : Les pénuries d’eau obligent certaines populations à migrer, provoquant des conflits pour l’accès aux ressources. <br/>
-                                            📊 Statistiques : « D’ici 2050, plus de 5 milliards de personnes pourraient être confrontées à des pénuries d’eau. » (Source : ONU)
+                                                <b>Explication :</b> Les pénuries d’eau obligent certaines populations à migrer, provoquant des conflits pour l’accès aux ressources. <br/>
+                                                <b>Statistiques :</b> « D’ici 2050, plus de 5 milliards de personnes pourraient être confrontées à des pénuries d’eau. » (Source : ONU)
                                             </div>
                                         </div>
                                     </div>

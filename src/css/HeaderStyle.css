@@ -39,7 +39,8 @@ nav > ul > li > a:hover{
 }
 
 .left h1.header-title{
-    font-size: 48px;
+    font-weight: 700;
+    font-size: 45px;
     width: 70%;
 }
 

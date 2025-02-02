@@ -1,3 +1,35 @@
 section#solutions-section{
     min-height: 35rem;
 }
+
+#solutions-section .content-section > ul > li{
+    height: auto;
+    width: 19rem;
+    background-color: #F8F8F8;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.content-section > ul > li .logo{
+    height: 4rem;
+    width: 4rem;
+    background-color: red;
+    border-radius: 8px;
+    background-color: #EAEAF3;
+    /* color: #5A65D5 !important; */
+}
+
+.content-section > ul > li .logo > i{
+    font-size: 26px;
+    color: #4a65e5;
+}
+
+.content-section > ul > li > .content > .title{
+    color: #303030;
+    min-height: 2.25rem;
+    font-weight: 700;
+}
+
+.content-section > ul > li > .content > ul > li{
+    font-size: 13.5px;
+}

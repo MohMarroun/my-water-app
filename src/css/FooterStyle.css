@@ -1,3 +1,20 @@
 footer{
     height: 8rem;
 }
+
+.nav-logo .social-media > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    background-color: #f3f4fb;
+    border: 1px solid #dce0ff;
+}
+
+.nav-logo .social-media > li > a > i{
+    color: #2a3469;
+    line-height: 1;
+    font-size: 18px;
+}
