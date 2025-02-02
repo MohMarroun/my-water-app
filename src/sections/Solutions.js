@@ -98,7 +98,7 @@ const Solutions = () => {
                         <li className='p-3'>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="logo d-flex align-items-center justify-content-center">
-                                    <i className="bi bi-3-circle-fill"></i>
+                                    <i className="bi bi-4-circle-fill"></i>
                                 </div>
                             </div>
                             <div className="content">
