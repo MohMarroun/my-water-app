@@ -11,15 +11,24 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section{
+  padding: 4.5rem 0;
 }
 
+
+.title-header > .section-title >b{
+  color: #3241ff;
+}
+
+.next-btn{
+  background-color: #ecf0fe !important;
+  color: #5A65D5 !important;
+  font-weight: 500 !important;
+  padding-right: 12px !important;
+  border: none !important;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
 }
 
 .App-header {

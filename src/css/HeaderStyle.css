@@ -1,6 +1,11 @@
 header{
-    height: 40rem;
-    border: 1px solid #ddd;
+    padding-bottom: 4.5rem;
+}
+
+nav{
+    color: black;
+    font-size: 1.05rem;
+    padding: 1.5rem 0 3rem;
 }
 
 nav >.logo{
@@ -8,30 +13,58 @@ nav >.logo{
     font-size: 1.25em;
 }
 
-nav{
-    color: black;
-    font-size: 1.05rem;
-    padding: 1.5rem 0 2rem;
-}
-
 nav > ul > li a{
     text-decoration: none;
-    color: #555;
+    color: #1c274b;
     font-weight: 500;
     padding: 5px 10px;
     transition: color 0.3s ease;
 }
 
 nav > ul > li > a:hover{
-    color: #007bff;
+    color: #0039e6;
+    font-weight: 600;
 }
 
 .body-content .left{
-    height: 10rem;
-    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 27rem;
+    padding: 2.5rem 0;
 }
 
 .body-content .right{
-    height: 10rem;
-    background-color: darkgray;
+    height: 27rem;
+}
+
+.left h1.header-title{
+    font-size: 48px;
+    width: 70%;
+}
+
+.left > h1.header-title b{
+    color: #3241ff;
+}
+
+.left > .btn:nth-last-child() >i{
+    color: #3241ff;
+}
+
+.left > p{
+    margin-top: 2rem;
+    padding-right: 8rem;
+    line-height: 1.45;
+}
+
+.left > p > i.bi-quote{
+    line-height: 1;
+}
+
+.left > p > i.bi-quote::before{
+    color: #ddd;
+}
+
+.left > p > i.bi-quote.end::before{
+    transform: rotate(180deg);
 }

@@ -1,3 +1,38 @@
-section#pourquoi-section{
-    min-height: 20rem;
+
+#pourquoi-section .statistics{
+    border: 1.5px solid #eee;
+    width: 33rem;
+    border-radius: 6px;
+}
+
+#pourquoi-section .statistics > .content{
+    background-color: #ecedfe;
+    border-radius: 6px;
+}
+
+.statistics > .content .card-body > .card-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.statistics > .content .card-body > .card-subtitle{
+    font-size: 13px;
+}
+
+.statistics > .content .card-body > hr{
+    border-color: #b3b3b3;
+}
+
+#pourquoi-section .content > ul > li > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    background-color: #ecf0fe;
+    color: #5A63D4;
+    border-color: #d5d8f8;
+    /* border-radius: 50%; */
 }

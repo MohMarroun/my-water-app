@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './sections/Header';
 import Pourquoi from './sections/Pourquoi';
@@ -7,7 +6,9 @@ import Solutions from './sections/Solutions';
 import Apropos from './sections/Apropos';
 import Footer from './sections/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import * as bootstrap from 'bootstrap';
+import "bootstrap-icons/font/bootstrap-icons.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 function App() {
   return (

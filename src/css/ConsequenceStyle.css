@@ -1,3 +1,8 @@
 section#consequences-section{
     min-height: 20rem;
+    background-color: #ecf0fe;
+}
+
+section#consequences-section .next-btn{
+    background-color: #d8e1ff !important;
 }
