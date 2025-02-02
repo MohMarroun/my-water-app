@@ -10,7 +10,7 @@ const Header = () => {
                 <nav className="d-flex justify-content-between align-items-center">
                     <div className="logo">
                         <div className="d-flex align-items-center gap-3">
-                            <img src="./images/water-logo-4.svg" alt="" style={style}/>
+                            <img src='./images/water-logo-4.svg' alt="" style={style}/>
                         </div>
                     </div>
                     <ul className='d-flex list-unstyled m-0'>
