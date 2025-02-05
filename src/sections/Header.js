@@ -58,7 +58,7 @@ const Header = () => {
                         <div className="col-xl-5">
                             <div className="right position-relative">
                                 <div className="container pe-0 text-center h-100">
-                                    <img className="h-100" src="./images/header-picture.png" alt="" />
+                                    <img className="h-100" src="./images/water.png" alt="" />
                                 </div>
                             </div>
                         </div>
