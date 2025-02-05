@@ -8,12 +8,12 @@ nav{
     padding: 1.5rem 0 3rem;
 }
 
-nav >.logo{
+nav .logo{
     font-weight: bold;
     font-size: 1.25em;
 }
 
-nav > ul > li a{
+nav ul > li a{
     text-decoration: none;
     color: #1c274b;
     font-weight: 500;
@@ -21,7 +21,7 @@ nav > ul > li a{
     transition: color 0.3s ease;
 }
 
-nav > ul > li > a:hover{
+nav ul > li > a:hover{
     color: #0039e6;
     font-weight: 600;
 }
@@ -31,7 +31,7 @@ nav > ul > li > a:hover{
     flex-direction: column;
     justify-content: center;
     height: 27rem;
-    padding: 2.5rem 0;
+    padding: 1rem 0 2.5rem 0;
 }
 
 .body-content .right{
@@ -41,7 +41,6 @@ nav > ul > li > a:hover{
 .left h1.header-title{
     font-weight: 700;
     font-size: 45px;
-    width: 70%;
 }
 
 .left h1.header-title b{
@@ -52,20 +51,19 @@ nav > ul > li > a:hover{
     color: #3241ff;
 }
 
-.left > p{
+.left p{
     margin-top: 2rem;
-    padding-right: 8rem;
     line-height: 1.45;
 }
 
-.left > p > i.bi-quote{
+.left p > i.bi-quote{
     line-height: 1;
 }
 
-.left > p > i.bi-quote::before{
+.left p > i.bi-quote::before{
     color: #ddd;
 }
 
-.left > p > i.bi-quote.end::before{
+.left p > i.bi-quote.end::before{
     transform: rotate(180deg);
 }

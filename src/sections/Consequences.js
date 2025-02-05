@@ -4,8 +4,8 @@ const Consequences = () => {
     return (
         <section id="consequences-section">
             <div className="container">
-                <div className="d-flex gap-2">
-                    <div className="col-sm-6">
+                <div className="row gap-0">
+                    <div className="col-lg-6 col-xs-12 px-0">
                         <div className="container text-start">
                             <div className="lightbox" data-mdb-lightbox-init>
                                 <div className="row">
@@ -35,7 +35,7 @@ const Consequences = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6">
+                    <div className="col-lg-6 col-xs-12 pe-0">
                         <div className="container text-start">
                             <a href="#solutions-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant

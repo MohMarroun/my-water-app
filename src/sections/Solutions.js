@@ -3,7 +3,6 @@ import React from 'react';
 const Solutions = () => {
     const subTitleStyle={
         fontSize:'15px',
-        padding:'0 17rem',
         lineHeight: '1.45'
     }
     return (
@@ -13,16 +12,20 @@ const Solutions = () => {
                     <a href="#consequences-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                         <i className="bi bi-arrow-right me-2"></i> Précédent
                     </a>
-                    <div className="title-header mt-2">
+                    <div className="title-header mt-3">
                         <h1 className='section-title text-center fs-3 mb-2'>Solutions pour économiser <b>l’eau</b></h1>
-                        <p className="sub-title text-center" style={subTitleStyle}>
-                        Cette section propose des solutions concrètes et faciles à appliquer au quotidien pour réduire la consommation d’eau. 
-                        L'idée est de vous inciter à adopter des gestes responsables
-                        </p>
+                        <div className="row justify-content-around">
+                            <div className="col-md-7 col xs-12">
+                                <p className="sub-title text-center" style={subTitleStyle}>
+                                Cette section propose des solutions concrètes et faciles à appliquer au quotidien pour réduire la consommation d’eau. 
+                                L'idée est de vous inciter à adopter des gestes responsables
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className="content-section mt-5">
-                    <ul className="d-flex justify-content-around gap-3 list-unstyled m-0">
+                <div className="content-section mt-2">
+                    <ul className="row justify-content-around gy-4 list-unstyled m-0">
                         <li className='p-3'>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="logo d-flex align-items-center justify-content-center">

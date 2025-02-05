@@ -4,8 +4,8 @@ const Pourquoi = () => {
     return (
         <section id="pourquoi-section">
             <div className="container">
-                <div className="d-flex gap-2">
-                    <div className="col-xl-6">
+                <div className="row gap-0">
+                    <div className="col-xl-6 col-xs-12">
                         <div className="container ps-0 text-start">
                             <a href="#consequences-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
@@ -16,17 +16,17 @@ const Pourquoi = () => {
                             </div>
                             <div className="content">
                                 <ul class="list-group list-group-light text-start mb-4">
-                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-2 ps-0 pb-0">
+                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-3 ps-0 pb-0">
                                         <button className="btn btn-primary" type="button">1</button>
-                                        Un Marocain consomme en moyenne entre <b>70 et 140 litres</b> d’eau par jour.
+                                        <p className='m-0'>Un Marocain consomme en moyenne entre <b>70 et 140 litres</b> d’eau par jour.</p>
                                     </li>
-                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-2 ps-0 pb-0">
+                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-3 ps-0 pb-0">
                                         <button className="btn btn-primary" type="button">2</button>
-                                        Une chasse d’eau utilise <b>5 à 9 litres</b> à chaque utilisation.
+                                        <p className='m-0'>Une chasse d’eau utilise <b>5 à 9 litres</b> à chaque utilisation.</p>
                                     </li>
-                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-2 ps-0">
+                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-3 ps-0">
                                         <button className="btn btn-primary" type="button">3</button>
-                                        L’agriculture représente <b>70%</b> de la consommation d’eau mondiale.
+                                        <p className="m-0">L’agriculture représente <b>70%</b> de la consommation d’eau mondiale.</p>
                                     </li>
                                 </ul>
                                 <a href="/" className="btn btn-outline-primary btn-md d-inline-flex">
@@ -35,7 +35,7 @@ const Pourquoi = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6">
+                    <div className="col-xl-6 col-xs-12 pe-0">
                         <div className="container h-100">
                             <div className="d-flex justify-content-end h-100">
                                 <div className="statistics p-2">
@@ -45,7 +45,7 @@ const Pourquoi = () => {
                                                 <h5 className="card-title text-center">La consommation <b>d’eau</b> d’un étudiant sur une journée</h5>
                                                 <h6 className="card-subtitle mb-2 text-body-secondary text-center">Infographie de la consommation par litres</h6>
                                                 <hr class="hr" />
-                                                <div className="chart position-relative">
+                                                <div className="chart position-relative p-2">
                                                     <img className="h-100 w-100" src="./images/chart.png" alt="" />
                                                 </div>
                                             </div>
