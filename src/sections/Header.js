@@ -5,7 +5,7 @@ const Header = () => {
         height: '40px',
     }
     return (
-        <header id="header-section" className='position-relative'>
+        <header id="header-section" className='position-relative pb-0 pb-md-5'>
             <div className="container">
                 <nav className="row justify-content-between align-items-center">
                     <div className="col-lg-4">
@@ -41,12 +41,12 @@ const Header = () => {
                             <div className="left justify-content-xl-center justify-content-start">
                                 <div className="row">
                                     <div className="col-lg-10 col-xs-12">
-                                        <h1 className="header-title text-start">L’eau, une ressource <b>précieuse</b> à préserver</h1>
+                                        <h1 className="header-title text-center text-md-start">L’eau, une ressource <b>précieuse</b> à préserver</h1>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-10 col-xs-12">
-                                        <p className='text-start'>
+                                        <p className='text-center text-md-start'>
                                             <i className="bi bi-quote text-primary start fs-3 me-2"></i>
                                             Comprendre l’impact de notre consommation d’eau est la première étape vers un usage plus responsable. 
                                             Ce site vous guide à travers les enjeux,les conséquences et les solutions pour préserver cette ressource vitale au quotidien.
@@ -55,7 +55,7 @@ const Header = () => {
                                     </div>
                                 </div>
                                 
-                                <div className="actions d-inline-flex gap-2 mt-4">
+                                <div className="actions d-flex justify-content-center justify-content-md-start gap-2 mt-4">
                                     <a 
                                         href="https://docs.google.com/forms/d/e/1FAIpQLSemzaCW0rz6Q7WcsyOVXrFYg3Tiayo2Aw1UA0SISe-6Ky3I2A/viewform" 
                                         className="btn btn-primary">
@@ -68,7 +68,7 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5">
+                        <div className="col-xl-5 d-none d-md-block">
                             <div className="right position-relative">
                                 <div className="container pe-0 text-center h-100">
                                     <img className="h-100 w-100" src="./images/water.png" alt="" loading='lazy' />

@@ -5,11 +5,11 @@ const Consequences = () => {
         <section id="consequences-section">
             <div className="container">
                 <div className="row gap-0">
-                    <div className="col-lg-6 col-xs-12 px-0">
+                    <div className="col-lg-6 col-xs-12 order-2 order-lg-1 px-0">
                         <div className="container text-start">
                             <div className="lightbox" data-mdb-lightbox-init>
                                 <div className="row">
-                                    <div className="col-lg-6">
+                                    <div className="col-6">
                                         <img
                                             src="./images/csq-2.jpg"
                                             data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
@@ -25,7 +25,7 @@ const Consequences = () => {
                                             loading='lazy'
                                         />
                                     </div>
-                                    <div className="col-lg-6">
+                                    <div className="col-6">
                                         <img
                                             src="./images/csq-3.jpg"
                                             data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
@@ -38,7 +38,7 @@ const Consequences = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xs-12 pe-0">
+                    <div className="col-lg-6 col-xs-12 order-1 order-lg-2 pe-0 mb-5 mb-lg-0">
                         <div className="container text-start">
                             <a href="#solutions-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant

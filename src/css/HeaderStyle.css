@@ -30,7 +30,7 @@ nav ul > li > a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 27rem;
+    /* height: 27rem; */
     padding: 1rem 0 2.5rem 0;
 }
 

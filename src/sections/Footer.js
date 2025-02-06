@@ -17,21 +17,21 @@ const Footer = () => {
                                 <img src="./images/water-logo-4.svg" alt="" style={logoStyle}/>
                             </div>
                             <nav style={navStyle}>
-                                <ul className='d-flex justify-content-center list-unstyled m-0'>
-                                    <li className="ms-2">
+                                <ul className='d-flex justify-content-center flex-column flex-sm-row list-unstyled m-0'>
+                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
                                         <a href="#header-section">Accueil</a>
                                     </li>
-                                    <li className="ms-0">
+                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
                                         <a href="#pourquoi-section">Pourquoi?</a>
                                     </li>
-                                    <li className="ms-2">
+                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
                                         <a href="#consequences-section">Conséquences</a>
                                     </li>
-                                    <li className="ms-2">
+                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
                                         <a href="#solutions-section">Solutions</a>
                                     </li>
-                                    <li className="ms-2">
-                                        <a className='pe-0' href="#apropos-section">A Propos</a>
+                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
+                                        <a className='pe-2 pe-md-0' href="#apropos-section">A Propos</a>
                                     </li>
                                 </ul>
                             </nav>

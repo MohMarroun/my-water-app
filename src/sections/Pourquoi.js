@@ -5,8 +5,8 @@ const Pourquoi = () => {
         <section id="pourquoi-section">
             <div className="container">
                 <div className="row gap-0">
-                    <div className="col-lg-6 col-xs-12">
-                        <div className="container ps-0 text-start">
+                    <div className="col-lg-6 col-xs-12 mb-5 mb-lg-0">
+                        <div className="container ps-3 ps-md-0 text-start">
                             <a href="#consequences-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
                             </a>
@@ -36,8 +36,8 @@ const Pourquoi = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-xs-12 pe-0">
-                        <div className="container h-100">
-                            <div className="d-flex justify-content-end h-100">
+                        <div className="container h-100 ps-0 ps-lg-3">
+                            <div className="d-flex justify-content-start justify-content-lg-end h-100">
                                 <div className="statistics p-2">
                                     <div className="content p-3">
                                         <div className="card h-100">
