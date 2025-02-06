@@ -11,7 +11,7 @@ const Header = () => {
                     <div className="col-lg-4">
                         <div className="logo">
                             <div className="d-flex justify-content-xl-start align-items-center justify-content-center gap-3">
-                                <img src='./images/water-logo-4.svg' alt="" style={style}/>
+                                <img src='./images/water-logo-4.svg' alt="" loading='lazy' style={style}/>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Header = () => {
                 <div className="body-content">
                     <div className="row">
                         <div className="col-xl-7 col-xs-12">
-                            <div className="left">
+                            <div className="left justify-content-xl-center justify-content-start">
                                 <div className="row">
                                     <div className="col-lg-10 col-xs-12">
                                         <h1 className="header-title text-start">L’eau, une ressource <b>précieuse</b> à préserver</h1>
@@ -71,7 +71,7 @@ const Header = () => {
                         <div className="col-xl-5">
                             <div className="right position-relative">
                                 <div className="container pe-0 text-center h-100">
-                                    <img className="h-100 w-100" src="./images/water.png" alt="" />
+                                    <img className="h-100 w-100" src="./images/water.png" alt="" loading='lazy' />
                                 </div>
                             </div>
                         </div>

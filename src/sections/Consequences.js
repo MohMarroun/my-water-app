@@ -15,12 +15,14 @@ const Consequences = () => {
                                             data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
                                             alt="Table Full of Spices"
                                             className=" w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+                                            loading='lazy'
                                         />
                                         <img
                                             src="./images/csq-4.webp"
                                             data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Square/1.webp"
                                             alt="Coconut with Strawberries"
                                             className="h-50 w-100 shadow-1-strong rounded"
+                                            loading='lazy'
                                         />
                                     </div>
                                     <div className="col-lg-6">
@@ -29,6 +31,7 @@ const Consequences = () => {
                                             data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
                                             alt="Dark Roast Iced Coffee"
                                             className="h-100 w-100 shadow-1-strong rounded"
+                                            loading='lazy'
                                         />
                                     </div>
                                 </div>

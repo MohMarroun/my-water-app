@@ -1,7 +1,8 @@
 
 #pourquoi-section .statistics{
-    border: 1.5px solid #eee;
+    height: fit-content;
     width: 33rem;
+    border: 1.5px solid #eee;
     border-radius: 6px;
 }
 

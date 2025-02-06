@@ -5,7 +5,7 @@ const Pourquoi = () => {
         <section id="pourquoi-section">
             <div className="container">
                 <div className="row gap-0">
-                    <div className="col-xl-6 col-xs-12">
+                    <div className="col-lg-6 col-xs-12">
                         <div className="container ps-0 text-start">
                             <a href="#consequences-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
@@ -35,7 +35,7 @@ const Pourquoi = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-xs-12 pe-0">
+                    <div className="col-lg-6 col-xs-12 pe-0">
                         <div className="container h-100">
                             <div className="d-flex justify-content-end h-100">
                                 <div className="statistics p-2">
@@ -46,7 +46,7 @@ const Pourquoi = () => {
                                                 <h6 className="card-subtitle mb-2 text-body-secondary text-center">Infographie de la consommation par litres</h6>
                                                 <hr class="hr" />
                                                 <div className="chart position-relative p-2">
-                                                    <img className="h-100 w-100" src="./images/chart.png" alt="" />
+                                                    <img className="h-100 w-100" src="./images/chart.png" alt="Statistiques de la consommation" loading='lazy' />
                                                 </div>
                                             </div>
                                         </div>
