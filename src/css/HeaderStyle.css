@@ -44,7 +44,7 @@ nav ul > li > a:hover{
 }
 
 .left h1.header-title b{
-    color: #3241ff;
+    color: #3241ff; /* changed */
 }
 
 .left > .btn:nth-last-child() >i{
