@@ -16,15 +16,15 @@ const Pourquoi = () => {
                             </div>
                             <div className="content">
                                 <ul class="list-group list-group-light text-start mb-4">
-                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-3 ps-0 pb-0">
+                                    <li className="list-group-item d-flex align-items-start align-items-md-center px-3 border-0 gap-3 ps-0 pb-0">
                                         <button className="btn btn-primary" type="button">1</button>
                                         <p className='m-0'>Un Marocain consomme en moyenne entre <b>70 et 140 litres</b> d’eau par jour.</p>
                                     </li>
-                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-3 ps-0 pb-0">
+                                    <li className="list-group-item d-flex align-items-start align-items-md-center px-3 border-0 gap-3 ps-0 pb-0">
                                         <button className="btn btn-primary" type="button">2</button>
                                         <p className='m-0'>Une chasse d’eau utilise <b>5 à 9 litres</b> à chaque utilisation.</p>
                                     </li>
-                                    <li className="list-group-item d-flex align-items-center px-3 border-0 gap-3 ps-0">
+                                    <li className="list-group-item d-flex align-items-start align-items-md-center px-3 border-0 gap-3 ps-0">
                                         <button className="btn btn-primary" type="button">3</button>
                                         <p className="m-0">L’agriculture représente <b>70%</b> de la consommation d’eau mondiale.</p>
                                     </li>

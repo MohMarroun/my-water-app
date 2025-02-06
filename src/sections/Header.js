@@ -55,14 +55,14 @@ const Header = () => {
                                     </div>
                                 </div>
                                 
-                                <div className="actions d-flex justify-content-center justify-content-md-start gap-2 mt-4">
+                                <div className="actions d-flex flex-column flex-sm-row justify-content-center justify-content-md-start gap-2 mt-4">
                                     <a 
                                         href="https://docs.google.com/forms/d/e/1FAIpQLSemzaCW0rz6Q7WcsyOVXrFYg3Tiayo2Aw1UA0SISe-6Ky3I2A/viewform" 
                                         className="btn btn-primary">
                                             <i className="bi bi-ui-checks-grid me-2"></i>
                                         Questionnaire
                                     </a>
-                                    <a href="https://youtu.be/XOZRSWR3GLY?feature=shared" className="btn d-inline-flex">
+                                    <a href="https://youtu.be/XOZRSWR3GLY?feature=shared" className="btn d-flex justify-content-center justify-content-md-start">
                                         <i className="bi bi-play-circle fs-4 lh-1 me-2"></i> Vidéo Démonstratif
                                     </a>
                                 </div>
