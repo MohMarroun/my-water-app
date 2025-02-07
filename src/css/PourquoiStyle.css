@@ -35,5 +35,8 @@
     background-color: #ecf0fe;
     color: #5A63D4;
     border-color: #d5d8f8;
-    /* border-radius: 50%; */
+}
+
+#pourquoi-section .content > a.btn{
+    padding: 6px 23px;
 }

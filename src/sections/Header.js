@@ -4,10 +4,18 @@ const Header = () => {
     const style = {
         height: '40px',
     }
+    const divStyle= {
+        height: '3rem',
+        width: '3rem',
+        backgroundColor: 'red'
+    }
     return (
         <header id="header-section" className='position-relative pb-0 pb-md-5'>
             <div className="container">
                 <nav className="row justify-content-between align-items-center">
+                    <div className="position-absolute" style={divStyle}>
+
+                    </div>
                     <div className="col-lg-4">
                         <div className="logo">
                             <div className="d-flex justify-content-xl-start align-items-center justify-content-center gap-3">
@@ -41,7 +49,7 @@ const Header = () => {
                             <div className="left justify-content-xl-center justify-content-start">
                                 <div className="row">
                                     <div className="col-lg-10 col-xs-12">
-                                        <h1 className="header-title text-center text-md-start">L’eau, une ressource <b>précieuse</b> à préserver</h1>
+                                        <h1 className="header-title text-center text-lg-start">L’eau, une ressource <b>précieuse</b> à préserver</h1>
                                     </div>
                                 </div>
                                 <div className="row">

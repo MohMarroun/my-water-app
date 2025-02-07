@@ -43,7 +43,7 @@ nav ul > li > a:hover{
     font-size: 45px;
 }
 
-.left h1.header-title b{
+.left h1.header-title > b{
     color: #3241ff; /* changed */
 }
 
