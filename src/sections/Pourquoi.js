@@ -11,7 +11,7 @@ const Pourquoi = () => {
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
                             </a>
                             <div className="title-header mt-2">
-                                <h1 className='section-title text-start fs-2 mb-4'>Pourquoi faut-il économiser <b>l’eau</b> ?</h1>
+                                <h1 className='section-title text-start fs-2 mb-4 animate__fadeInLeftBig'>Pourquoi faut-il économiser <b>l’eau</b> ?</h1>
                                 <p className="sub-title text-start pe-3 mb-4">L’eau est essentielle à notre survie, mais nous en gaspillons souvent sans nous en rendre compte. Saviez-vous qu’un robinet qui goutte peut gaspiller jusqu’à 120 litres d’eau par jour ? Découvrez comment notre consommation quotidienne impacte notre planète.</p>
                             </div>
                             <div className="content">
