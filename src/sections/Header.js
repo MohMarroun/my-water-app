@@ -7,7 +7,8 @@ const Header = () => {
     const divStyle= {
         height: '3rem',
         width: '3rem',
-        backgroundColor: 'red'
+        backgroundColor: 'red',
+        display: 'none'
     }
     return (
         <header id="header-section" className='position-relative pb-0 pb-md-5'>
@@ -19,7 +20,7 @@ const Header = () => {
                     <div className="col-lg-4">
                         <div className="logo">
                             <div className="d-flex justify-content-xl-start align-items-center justify-content-center gap-3">
-                                <img src='./images/water-logo-4.svg' alt="" loading='lazy' style={style}/>
+                                <img src='./images/ECOWATER.svg' alt="" loading='lazy' style={style}/>
                             </div>
                         </div>
                     </div>

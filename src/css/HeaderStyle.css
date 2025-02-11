@@ -1,5 +1,6 @@
 header{
     padding-bottom: 4.5rem;
+    background-image: radial-gradient(circle, #eff7ff, #f4f9ff, #f9faff, #fcfdff, #ffffff);
 }
 
 nav{
@@ -67,3 +68,9 @@ nav ul > li > a:hover{
 .left p > i.bi-quote.end::before{
     transform: rotate(180deg);
 }
+
+/* 
+
+    background-image: radial-gradient(circle, #eff7ff, #f4f9ff, #f9faff, #fcfdff, #ffffff);
+
+*/
