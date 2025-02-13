@@ -1,8 +1,20 @@
 section#consequences-section{
     min-height: 20rem;
-    background-color: #ecf0fe;
+    /* background-color: #ecf0fe; */ 
 }
 
-section#consequences-section .next-btn{
+#consequences-section .next-btn{
     background-color: #d8e1ff !important;
+}
+
+.accordion > .accordion-item{
+    padding-bottom: 6px;
+}
+
+.accordion > .accordion-item > .accordion-collapse{
+    background-color: #f5f5f6;
+}
+
+.accordion > .accordion-item > .accordion-header > .accordion-button{
+    background-color: #ecf0fe;
 }

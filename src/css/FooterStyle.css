@@ -2,6 +2,9 @@ footer{
     height: 8rem;
 }
 
+footer .nav-logo{
+    margin: 6.5rem 0 4rem;
+}
 .nav-logo .social-media > li > a {
     display: flex;
     align-items: center;

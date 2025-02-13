@@ -4,7 +4,7 @@ const Consequences = () => {
     return (
         <section id="consequences-section">
             <div className="container">
-                <div className="row gap-0">
+                <div className="row flex-row-reverse gap-0">
                     <div className="col-lg-6 col-xs-12 order-2 order-lg-1 px-0">
                         <div className="container text-start">
                             <div className="lightbox" data-mdb-lightbox-init>
@@ -38,7 +38,7 @@ const Consequences = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xs-12 order-1 order-lg-2 pe-0 mb-5 mb-lg-0">
+                    <div className="col-lg-6 col-xs-12 order-1 order-lg-2 ps-3 mb-2 mb-lg-0 ps-md-0">
                         <div className="container text-start">
                             <a href="#solutions-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
@@ -72,8 +72,12 @@ const Consequences = () => {
                                         </h2>
                                         <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                             <div className="accordion-body">
-                                                <b>Explication :</b> Dans de nombreuses régions du monde, des millions de personnes souffrent du manque d’eau en raison d’une mauvaise gestion des ressources et des sécheresses accrues. <br/>
-                                                <b>Exemple concret :</b> « En Afrique subsaharienne, des familles doivent marcher plusieurs kilomètres chaque jour pour trouver une source d’eau potable. »
+                                                <p>
+                                                    <b>Explication :</b> Dans de nombreuses régions du monde, des millions de personnes souffrent du manque d’eau en raison d’une mauvaise gestion des ressources et des sécheresses accrues. <br/>
+                                                </p>
+                                                <p className='mb-1'>
+                                                    <b>Exemple concret :</b> « En Afrique subsaharienne, des familles doivent marcher plusieurs kilomètres chaque jour pour trouver une source d’eau potable. »
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -97,8 +101,12 @@ const Consequences = () => {
                                         </h2>
                                         <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                             <div className="accordion-body">
-                                                <b>Explication :</b> Les pénuries d’eau obligent certaines populations à migrer, provoquant des conflits pour l’accès aux ressources. <br/>
-                                                <b>Statistiques :</b> « D’ici 2050, plus de 5 milliards de personnes pourraient être confrontées à des pénuries d’eau. » (Source : ONU)
+                                                <p>
+                                                    <b>Explication :</b> Les pénuries d’eau obligent certaines populations à migrer, provoquant des conflits pour l’accès aux ressources. <br/>
+                                                </p>
+                                                <p className='mb-1'>
+                                                    <b>Statistiques :</b> « D’ici 2050, plus de 5 milliards de personnes pourraient être confrontées à des pénuries d’eau. » (Source : ONU)
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

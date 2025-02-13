@@ -1,9 +1,11 @@
 @import url("./css/HeaderStyle.css");
 @import url("./css/PourquoiStyle.css");
+@import url("./css/CausesStyle.css");
 @import url("./css/ConsequenceStyle.css");
 @import url("./css/SolutionStyle.css");
 @import url("./css/AproposStyle.css");
 @import url("./css/FooterStyle.css");
+
 
 /* ################### */
 
@@ -12,7 +14,7 @@
 }
 
 section{
-  padding: 4.5rem 0;
+  padding: 5rem 0;
 }
 
 .title-header > .section-title{

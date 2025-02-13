@@ -1,5 +1,10 @@
 section#solutions-section{
     min-height: 35rem;
+    background-color: #ecf0fe;
+}
+
+section#solutions-section .section-header > .next-btn{
+    background-color: #d8e1ff !important;
 }
 
 #solutions-section .content-section > ul > li{
@@ -16,7 +21,6 @@ section#solutions-section{
     background-color: red;
     border-radius: 8px;
     background-color: #EAEAF3;
-    /* color: #5A65D5 !important; */
 }
 
 .content-section > ul > li .logo > i{

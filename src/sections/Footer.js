@@ -35,7 +35,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </nav>
-                            <ul className="social-media d-flex justify-content-center gap-3 list-unstyled m-0 mb-5">
+                            <ul className="social-media d-flex justify-content-center gap-3 list-unstyled m-0">
                                 <li>
                                     <a className='pe-0' href="https://fr-fr.facebook.com">
                                         <i className="bi bi-facebook"></i>

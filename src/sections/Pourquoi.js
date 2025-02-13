@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pourquoi = () => {
     return (
-        <section id="pourquoi-section">
+        <section id="pourquoi-section" className='d-none'>
             <div className="container">
                 <div className="row gap-0">
                     <div className="col-lg-6 col-xs-12 mb-5 mb-lg-0">

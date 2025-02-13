@@ -30,16 +30,16 @@ const Header = () => {
                                 <a href="#Accueil">Accueil</a>
                             </li>
                             <li className="ms-2">
-                                <a href="#pourquoi-section">Pourquoi?</a>
+                                <a href="#importance-section">Pourquoi?</a>
+                            </li>
+                            <li className="ms-2">
+                                <a href="#causes-section">Causes</a>
                             </li>
                             <li className="ms-2">
                                 <a href="#consequences-section">Conséquences</a>
                             </li>
                             <li className="ms-2">
                                 <a href="#solutions-section">Solutions</a>
-                            </li>
-                            <li className="ms-2">
-                                <a className='pe-0' href="#apropos-section">A Propos</a>
                             </li>
                         </ul>
                     </div>

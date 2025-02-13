@@ -3,6 +3,10 @@ header{
     background-image: radial-gradient(circle, #eff7ff, #f4f9ff, #f9faff, #fcfdff, #ffffff);
 }
 
+header .body-content{
+    padding: 1rem 0 2.5rem;
+}
+
 nav{
     color: black;
     font-size: 1.05rem;
@@ -45,10 +49,10 @@ nav ul > li > a:hover{
 }
 
 .left h1.header-title > b{
-    color: #3241ff; /* changed */
+    color: #3241ff !important;
 }
 
-.left > .btn:nth-last-child() >i{
+.left > .btn:nth-last-child() > i{
     color: #3241ff;
 }
 

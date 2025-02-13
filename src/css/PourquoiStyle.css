@@ -1,14 +1,18 @@
 
-#pourquoi-section .statistics{
+#importance-section .statistics{
     height: fit-content;
     width: 33rem;
     border: 1.5px solid #eee;
     border-radius: 6px;
 }
 
-#pourquoi-section .statistics > .content{
+#importance-section .statistics > .content{
     background-color: #ecedfe;
     border-radius: 6px;
+}
+
+#importance-section .statistics .chart{
+    height: 26rem;
 }
 
 .statistics > .content .card-body > .card-title {
@@ -24,7 +28,7 @@
     border-color: #b3b3b3;
 }
 
-#pourquoi-section .content > ul > li > button{
+#importance-section .content > ul > li > button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +41,6 @@
     border-color: #d5d8f8;
 }
 
-#pourquoi-section .content > a.btn{
+#importance-section .content > a.btn{
     padding: 6px 23px;
 }

@@ -1,5 +1,7 @@
 
 import Header from './sections/Header';
+import ImportanceEau from './sections/Importance';
+import CausesSurconsommation from './sections/Causes';
 import Pourquoi from './sections/Pourquoi';
 import Consequences from './sections/Consequences';
 import Solutions from './sections/Solutions';
@@ -15,10 +17,12 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <ImportanceEau />
+      <CausesSurconsommation />
       <Pourquoi />
       <Consequences />
       <Solutions />
-      <Apropos />
+      {/* <Apropos /> */}
       <Footer />
     </div>
   );
