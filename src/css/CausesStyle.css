@@ -2,3 +2,24 @@ section#causes-section{
     min-height: 35rem;
     background-color: #ecf0fe;
 }
+
+#causes-section .next-btn{
+    background-color: #d8e1ff !important;
+}
+
+#causes-section .statistics{
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+#causes-section .statistics > .content{
+    background-color: #ecedfe;
+    width: 33rem;
+    height: 30rem;
+    padding: 12px;
+}
+
+#causes-section .content > ul > li{
+    background-color: transparent;
+}

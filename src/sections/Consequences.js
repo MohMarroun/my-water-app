@@ -7,7 +7,7 @@ const Consequences = () => {
                 <div className="row flex-row-reverse gap-0">
                     <div className="col-lg-6 col-xs-12 order-2 order-lg-1 px-0">
                         <div className="container text-start">
-                            <div className="lightbox" data-mdb-lightbox-init>
+                            <div className="lightbox">
                                 <div className="row">
                                     <div className="col-6">
                                         <img

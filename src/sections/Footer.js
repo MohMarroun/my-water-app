@@ -22,16 +22,16 @@ const Footer = () => {
                                         <a href="#header-section">Accueil</a>
                                     </li>
                                     <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
-                                        <a href="#pourquoi-section">Pourquoi?</a>
+                                        <a href="#importance-section">Pourquoi?</a>
+                                    </li>
+                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
+                                        <a href="#causes-section">Causes</a>
                                     </li>
                                     <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
                                         <a href="#consequences-section">Conséquences</a>
                                     </li>
                                     <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
-                                        <a href="#solutions-section">Solutions</a>
-                                    </li>
-                                    <li className="ms-0 ms-sm-2 mb-2 mb-sm-0">
-                                        <a className='pe-2 pe-md-0' href="#apropos-section">A Propos</a>
+                                        <a className='pe-2 pe-md-0' href="#solutions-section">Solutions</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -61,7 +61,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div class="text-center p-3" style={{borderTop: '1px solid #ddd'}}>
-                    © 2025 Copyright:
+                    © 2025 Copyright
                 </div>
             </div>
         </footer>

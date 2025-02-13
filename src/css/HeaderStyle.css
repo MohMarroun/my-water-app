@@ -1,6 +1,7 @@
 header{
     padding-bottom: 4.5rem;
     background-image: radial-gradient(circle, #eff7ff, #f4f9ff, #f9faff, #fcfdff, #ffffff);
+    border-bottom: 1px solid #eaf1fd;
 }
 
 header .body-content{

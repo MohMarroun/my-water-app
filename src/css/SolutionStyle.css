@@ -10,17 +10,16 @@ section#solutions-section .section-header > .next-btn{
 #solutions-section .content-section > ul > li{
     height: auto;
     width: 19rem;
-    background-color: #F8F8F8;
-    border: 1px solid #eee;
+    background-color: #fbfdff;
     border-radius: 8px;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
 }
 
 .content-section > ul > li .logo{
     height: 4rem;
     width: 4rem;
-    background-color: red;
+    background-color: #d8e1ff;
     border-radius: 8px;
-    background-color: #EAEAF3;
 }
 
 .content-section > ul > li .logo > i{
