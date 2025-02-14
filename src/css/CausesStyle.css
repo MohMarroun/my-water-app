@@ -31,9 +31,22 @@ section#causes-section{
 
 .statistics > .content > .card .chart > img{
     height: 82%;
+    max-width: 100%;
 }
 
 #causes-section .content > .accordion > .accordion-item > .accordion-header > .accordion-button{
     background-color: white !important;
     padding: 13px 16px;
+}
+
+/* Default width */
+.custom-width {
+    width: 92%;
+}
+  
+/* Medium screens (768px and up) */
+@media (max-width: 1200px) {
+    .custom-width {
+        width: 100%;
+    }
 }

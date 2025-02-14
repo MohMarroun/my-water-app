@@ -4,28 +4,8 @@ const CausesSurconsommation = () => {
     return (
         <section id="causes-section" className='d-nonee'>
             <div className="container">
-                <div className="row gap-0">
-                    <div className="col-lg-6 col-xs-12 mb-5 mb-lg-0">
-                        <div className="h-100 pe-0 pe-lg-3">
-                            <div className="d-flex justify-content-center justify-content-lg-start h-100">
-                                <div className="statistics">
-                                    <div className="content">
-                                        <div className="card h-100">
-                                            <div className="card-body">
-                                                <h5 className="card-title text-center">La distribution de la surconsommation <b>d’eau</b> par secteur</h5>
-                                                <h6 className="card-subtitle mb-2 text-body-secondary text-center">Secteurs de l'agriculture, industrie et autres </h6>
-                                                <hr class="hr" />
-                                                <div className="chart position-relative d-flex-row justify-content-center align-content-center p-2">
-                                                    <img src="./images/water-distribution.png" alt="Statistiques de la consommation" loading='lazy' />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-xs-12">
+                <div className="row flex-row-reverse gap-0">
+                    <div className="col-lg-6 col-xs-12 mb-4 mb-lg-0">
                         <div className="container pe-3 pe-md-0 text-start">
                             <a href="#consequences-section" className="next-btn btn btn-primary btn-sm d-inline-flex">
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
@@ -110,6 +90,27 @@ const CausesSurconsommation = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-lg-6 col-xs-12 mb-5 mb-lg-0">
+                        <div className="h-100 pe-0 pe-lg-3">
+                            <div className="d-flex justify-content-center justify-content-lg-start h-100">
+                                <div className="statistics custom-width">
+                                    <div className="content">
+                                        <div className="card h-100">
+                                            <div className="card-body">
+                                                <h5 className="card-title text-center">La distribution de la surconsommation <b>d’eau</b> par secteur</h5>
+                                                <h6 className="card-subtitle mb-2 text-body-secondary text-center">Secteurs de l'agriculture, industrie et autres </h6>
+                                                <hr class="hr" />
+                                                <div className="chart position-relative d-flex-row justify-content-center align-content-center p-2">
+                                                    <img src="./images/water-distribution.png" alt="Statistiques de la consommation" loading='lazy' />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
