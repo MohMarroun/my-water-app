@@ -5,7 +5,7 @@ import CausesSurconsommation from './sections/Causes';
 import Pourquoi from './sections/Pourquoi';
 import Consequences from './sections/Consequences';
 import Solutions from './sections/Solutions';
-import Apropos from './sections/Apropos';
+import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -22,7 +22,7 @@ function App() {
       <Pourquoi />
       <Consequences />
       <Solutions />
-      {/* <Apropos /> */}
+      <Contact />
       <Footer />
     </div>
   );

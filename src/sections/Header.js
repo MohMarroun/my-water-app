@@ -41,6 +41,9 @@ const Header = () => {
                             <li className="ms-2">
                                 <a href="#solutions-section">Solutions</a>
                             </li>
+                            <li className="ms-2">
+                                <a href="#contact-section">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
