@@ -61,7 +61,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div class="text-center p-3" style={{borderTop: '1px solid #ddd'}}>
-                    © 2025 Copyright
+                    © 2025 Copyright.
                 </div>
             </div>
         </footer>
