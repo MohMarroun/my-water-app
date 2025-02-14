@@ -11,7 +11,7 @@ const ImportanceEau = () => {
                                 <i className="bi bi-arrow-right me-2"></i> Suivant
                             </a>
                             <div className="title-header mt-2">
-                                <h1 className='section-title text-start fs-2 mb-4 animate__fadeInLeftBig'>Pourquoi faut-il économiser <b>l’eau</b> ?</h1>
+                                <h1 className='section-title text-start fs-3 mb-4 animate__fadeInLeftBig'>Pourquoi faut-il économiser <b>l’eau</b> ?</h1>
                             </div>
                             <div className="content">
                                 <ul class="list-group list-group-light text-start mb-3">

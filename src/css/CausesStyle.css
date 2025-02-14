@@ -8,6 +8,7 @@ section#causes-section{
 }
 
 #causes-section .statistics{
+    height: fit-content;
     background-color: white;
     border-radius: 5px;
     padding: 12px;
@@ -15,11 +16,24 @@ section#causes-section{
 
 #causes-section .statistics > .content{
     background-color: #ecedfe;
-    width: 33rem;
-    height: 30rem;
+    width: 100%;
+    height: 28rem;
     padding: 12px;
 }
 
 #causes-section .content > ul > li{
     background-color: transparent;
+}
+
+.statistics > .content > .card .chart{
+    height: 20rem;
+}
+
+.statistics > .content > .card .chart > img{
+    height: 82%;
+}
+
+#causes-section .content > .accordion > .accordion-item > .accordion-header > .accordion-button{
+    background-color: white !important;
+    padding: 13px 16px;
 }

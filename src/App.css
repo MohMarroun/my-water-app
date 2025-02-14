@@ -32,6 +32,11 @@ section{
   padding-right: 12px !important;
   border: none !important;
 }
+
+.accordion-flush>.accordion-item{
+  background-color: transparent;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 
 }
