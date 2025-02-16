@@ -37,22 +37,22 @@ const Footer = () => {
                             </nav>
                             <ul className="social-media d-flex justify-content-center gap-3 list-unstyled m-0">
                                 <li>
-                                    <a className='pe-0' href="https://fr-fr.facebook.com">
+                                    <a className='pe-0' href="https://fr-fr.facebook.com/yassir-water">
                                         <i className="bi bi-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className='pe-0' href="https://web.whatsapp.com">
+                                    <a className='pe-0' href="https://web.whatsapp.com/yassir-water">
                                         <i className="bi bi-whatsapp"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className='pe-0' href="https://x.com">
+                                    <a className='pe-0' href="https://x.com/yassir-water">
                                         <i className="bi bi-twitter-x"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className='pe-0' href="https://www.instagram.com">
+                                    <a className='pe-0' href="https://www.instagram.com/yassir-water">
                                         <i className="bi bi-instagram"></i>
                                     </a>
                                 </li>

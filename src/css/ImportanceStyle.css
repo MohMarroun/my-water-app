@@ -11,6 +11,10 @@
     border-radius: 6px;
 }
 
+#importance-section .content p{
+    text-align: justify;
+}
+
 #importance-section .statistics .chart{
     height: 26rem;
 }
